@@ -2,7 +2,7 @@ import folium
 
 def visual(final_df):
     m = folium.Map(location=[16.5, 80.5], zoom_start=7)
-    OUTPUT_DIR = "E:\\projects\\ap_district_wise_weather\\output\\ap_weather_map.html"
+    OUTPUT_DIR = "edit the location\\ap_district_wise_weather\\output\\ap_weather_map.html"
 
     for _, row in final_df.iterrows():
         folium.CircleMarker(
