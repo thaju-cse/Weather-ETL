@@ -37,7 +37,7 @@ def build_dataframe(district, lat, lon, data):
 
 def main():
 
-    DISTRICTS_FILE = "E:\\projects\\ap_district_wise_weather\\data\\ap_districts.csv"
+    DISTRICTS_FILE = "File location, you need to add."
 
     districts = pd.read_csv(DISTRICTS_FILE)
     all_data = []
